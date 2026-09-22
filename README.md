@@ -1,26 +1,30 @@
 # AI Deployment Command Center
 
+**Status: Concept brief with supporting scope and measurement notes.** The features below are proposed; this repository does not yet contain an implemented application or measured results.
+
+[Portfolio](https://eskstrom.github.io/) · [Related projects](https://eskstrom.github.io/?category=healthcare-operations#library)
+
 ## Product brief
 
 A B2B rollout dashboard for teams deploying AI products across customer sites. It tracks readiness, integrations, training, adoption, issues, and launch risks.
 
-## Why this belongs in your portfolio
+## Design focus
 
-This is the clearest productization of your forward-deployed AI and multi-site implementation experience at Qure.ai.
+Separate technical readiness from training, adoption, and unresolved launch blockers.
 
-## MVP
+## Proposed scope
 
 - Portfolio view of 10 fictional customer sites.
 - Readiness checklist: infrastructure, integration, training, governance, owner.
 - Adoption and issue trends by site.
 - Risk score that explains its drivers and suggests next action.
 
-## Success measures
+## Validation targets
 
 - A deployment manager can identify blocked sites in under a minute.
 - Risk signals have visible, editable rules rather than opaque AI scoring.
 
-## Suggested stack
+## Potential implementation
 
 React/Next.js, TypeScript, Supabase or SQLite, charting library.
 
@@ -28,6 +32,10 @@ React/Next.js, TypeScript, Supabase or SQLite, charting library.
 
 Use fictional customers and avoid any medical or patient information.
 
-## Chat kickoff
+## Supporting documentation
 
-“Build the AI Deployment Command Center MVP from this README. Start with a polished fictional-site dashboard and explainable risk rules.”
+- [measurement plan](docs/MEASUREMENT_PLAN.md)
+- [mvp scope](docs/MVP_SCOPE.md)
+- [problem and users](docs/PROBLEM_AND_USERS.md)
+
+[Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
