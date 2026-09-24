@@ -39,3 +39,24 @@ Use fictional customers and avoid any medical or patient information.
 - [problem and users](docs/PROBLEM_AND_USERS.md)
 
 [Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Retain as the enterprise adoption backlog.
+
+Consolidate rollout readiness, feedback and launch controls into one focused deployment-management workflow.
+
+### Next scope
+
+- [ ] Define a deployment manager's decision across ten fictional customer sites, separating integration readiness from training and adoption.
+- [ ] Specify owner, evidence, unresolved blocker and next action for each launch gate.
+- [ ] Bring feedback classification and governance requirements into this PRD as proposed modules, without claiming they have been migrated.
+- [ ] Prototype a blocked-site triage task before expanding dashboard scope.
+
+### Validation and decision criteria
+
+Measure blocked-site identification, actionability and handoff completeness in a user task. Define adoption denominators and time windows. Transparent editable rules should explain every readiness signal.
+<!-- portfolio-future-plans:end -->
